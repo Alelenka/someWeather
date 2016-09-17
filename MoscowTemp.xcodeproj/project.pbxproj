@@ -1,0 +1,576 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		57A789451D8D6072006EFCA9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 57A789441D8D6072006EFCA9 /* main.m */; };
+		57A789481D8D6072006EFCA9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 57A789471D8D6072006EFCA9 /* AppDelegate.m */; };
+		57A7894B1D8D6072006EFCA9 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 57A7894A1D8D6072006EFCA9 /* ViewController.m */; };
+		57A7894E1D8D6072006EFCA9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 57A7894C1D8D6072006EFCA9 /* Main.storyboard */; };
+		57A789501D8D6072006EFCA9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 57A7894F1D8D6072006EFCA9 /* Assets.xcassets */; };
+		57A789531D8D6072006EFCA9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 57A789511D8D6072006EFCA9 /* LaunchScreen.storyboard */; };
+		57A7895E1D8D6072006EFCA9 /* MoscowTempTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 57A7895D1D8D6072006EFCA9 /* MoscowTempTests.m */; };
+		57A7896D1D8D610D006EFCA9 /* NSDate+StringAndDate.m in Sources */ = {isa = PBXBuildFile; fileRef = 57A7896C1D8D610D006EFCA9 /* NSDate+StringAndDate.m */; };
+		57A789721D8D6115006EFCA9 /* OpenWeather.m in Sources */ = {isa = PBXBuildFile; fileRef = 57A7896F1D8D6115006EFCA9 /* OpenWeather.m */; };
+		57A789731D8D6115006EFCA9 /* Weather.m in Sources */ = {isa = PBXBuildFile; fileRef = 57A789711D8D6115006EFCA9 /* Weather.m */; };
+		57A789781D8D611F006EFCA9 /* MainModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 57A789751D8D611F006EFCA9 /* MainModel.m */; };
+		57A789791D8D611F006EFCA9 /* WeatherGenerator.m in Sources */ = {isa = PBXBuildFile; fileRef = 57A789771D8D611F006EFCA9 /* WeatherGenerator.m */; };
+		F7B9C8EEF40890FF7D6AFE53 /* libPods-MoscowTemp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D7341AA993B3FE340797CAC /* libPods-MoscowTemp.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		57A7895A1D8D6072006EFCA9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 57A789381D8D6072006EFCA9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 57A7893F1D8D6072006EFCA9;
+			remoteInfo = MoscowTemp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		36D10C6B0BC48B419071565E /* Pods-MoscowTemp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MoscowTemp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MoscowTemp/Pods-MoscowTemp.debug.xcconfig"; sourceTree = "<group>"; };
+		57A789401D8D6072006EFCA9 /* MoscowTemp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MoscowTemp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		57A789441D8D6072006EFCA9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		57A789461D8D6072006EFCA9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		57A789471D8D6072006EFCA9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		57A789491D8D6072006EFCA9 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		57A7894A1D8D6072006EFCA9 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		57A7894D1D8D6072006EFCA9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		57A7894F1D8D6072006EFCA9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		57A789521D8D6072006EFCA9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		57A789541D8D6072006EFCA9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		57A789591D8D6072006EFCA9 /* MoscowTempTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MoscowTempTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		57A7895D1D8D6072006EFCA9 /* MoscowTempTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MoscowTempTests.m; sourceTree = "<group>"; };
+		57A7895F1D8D6072006EFCA9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		57A7896B1D8D610D006EFCA9 /* NSDate+StringAndDate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSDate+StringAndDate.h"; path = "Helpers/NSDate+StringAndDate.h"; sourceTree = "<group>"; };
+		57A7896C1D8D610D006EFCA9 /* NSDate+StringAndDate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSDate+StringAndDate.m"; path = "Helpers/NSDate+StringAndDate.m"; sourceTree = "<group>"; };
+		57A7896E1D8D6115006EFCA9 /* OpenWeather.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OpenWeather.h; path = Entities/OpenWeather.h; sourceTree = "<group>"; };
+		57A7896F1D8D6115006EFCA9 /* OpenWeather.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = OpenWeather.m; path = Entities/OpenWeather.m; sourceTree = "<group>"; };
+		57A789701D8D6115006EFCA9 /* Weather.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Weather.h; path = Entities/Weather.h; sourceTree = "<group>"; };
+		57A789711D8D6115006EFCA9 /* Weather.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Weather.m; path = Entities/Weather.m; sourceTree = "<group>"; };
+		57A789741D8D611F006EFCA9 /* MainModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MainModel.h; path = Models/MainModel.h; sourceTree = "<group>"; };
+		57A789751D8D611F006EFCA9 /* MainModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MainModel.m; path = Models/MainModel.m; sourceTree = "<group>"; };
+		57A789761D8D611F006EFCA9 /* WeatherGenerator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WeatherGenerator.h; path = Models/WeatherGenerator.h; sourceTree = "<group>"; };
+		57A789771D8D611F006EFCA9 /* WeatherGenerator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WeatherGenerator.m; path = Models/WeatherGenerator.m; sourceTree = "<group>"; };
+		770573C18A9C5FB2276449F0 /* Pods-MoscowTemp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MoscowTemp.release.xcconfig"; path = "Pods/Target Support Files/Pods-MoscowTemp/Pods-MoscowTemp.release.xcconfig"; sourceTree = "<group>"; };
+		8D7341AA993B3FE340797CAC /* libPods-MoscowTemp.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MoscowTemp.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		57A7893D1D8D6072006EFCA9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F7B9C8EEF40890FF7D6AFE53 /* libPods-MoscowTemp.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		57A789561D8D6072006EFCA9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		21D6822D168B319DA9F78B77 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				36D10C6B0BC48B419071565E /* Pods-MoscowTemp.debug.xcconfig */,
+				770573C18A9C5FB2276449F0 /* Pods-MoscowTemp.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		4EACE58C944B6E071AF65B5C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8D7341AA993B3FE340797CAC /* libPods-MoscowTemp.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		57A789371D8D6072006EFCA9 = {
+			isa = PBXGroup;
+			children = (
+				57A789421D8D6072006EFCA9 /* MoscowTemp */,
+				57A7895C1D8D6072006EFCA9 /* MoscowTempTests */,
+				57A789411D8D6072006EFCA9 /* Products */,
+				21D6822D168B319DA9F78B77 /* Pods */,
+				4EACE58C944B6E071AF65B5C /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		57A789411D8D6072006EFCA9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				57A789401D8D6072006EFCA9 /* MoscowTemp.app */,
+				57A789591D8D6072006EFCA9 /* MoscowTempTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		57A789421D8D6072006EFCA9 /* MoscowTemp */ = {
+			isa = PBXGroup;
+			children = (
+				57A7896A1D8D60DB006EFCA9 /* Helpers */,
+				57A789691D8D609C006EFCA9 /* Model */,
+				57A789491D8D6072006EFCA9 /* ViewController.h */,
+				57A7894A1D8D6072006EFCA9 /* ViewController.m */,
+				57A789681D8D6097006EFCA9 /* UI */,
+				57A789461D8D6072006EFCA9 /* AppDelegate.h */,
+				57A789471D8D6072006EFCA9 /* AppDelegate.m */,
+				57A789431D8D6072006EFCA9 /* Supporting Files */,
+			);
+			path = MoscowTemp;
+			sourceTree = "<group>";
+		};
+		57A789431D8D6072006EFCA9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				57A789541D8D6072006EFCA9 /* Info.plist */,
+				57A789441D8D6072006EFCA9 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		57A7895C1D8D6072006EFCA9 /* MoscowTempTests */ = {
+			isa = PBXGroup;
+			children = (
+				57A7895D1D8D6072006EFCA9 /* MoscowTempTests.m */,
+				57A7895F1D8D6072006EFCA9 /* Info.plist */,
+			);
+			path = MoscowTempTests;
+			sourceTree = "<group>";
+		};
+		57A789681D8D6097006EFCA9 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				57A7894C1D8D6072006EFCA9 /* Main.storyboard */,
+				57A7894F1D8D6072006EFCA9 /* Assets.xcassets */,
+				57A789511D8D6072006EFCA9 /* LaunchScreen.storyboard */,
+			);
+			name = UI;
+			sourceTree = "<group>";
+		};
+		57A789691D8D609C006EFCA9 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				57A7897A1D8D6122006EFCA9 /* Entities */,
+				57A789741D8D611F006EFCA9 /* MainModel.h */,
+				57A789751D8D611F006EFCA9 /* MainModel.m */,
+				57A789761D8D611F006EFCA9 /* WeatherGenerator.h */,
+				57A789771D8D611F006EFCA9 /* WeatherGenerator.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		57A7896A1D8D60DB006EFCA9 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				57A7896B1D8D610D006EFCA9 /* NSDate+StringAndDate.h */,
+				57A7896C1D8D610D006EFCA9 /* NSDate+StringAndDate.m */,
+			);
+			name = Helpers;
+			sourceTree = "<group>";
+		};
+		57A7897A1D8D6122006EFCA9 /* Entities */ = {
+			isa = PBXGroup;
+			children = (
+				57A7896E1D8D6115006EFCA9 /* OpenWeather.h */,
+				57A7896F1D8D6115006EFCA9 /* OpenWeather.m */,
+				57A789701D8D6115006EFCA9 /* Weather.h */,
+				57A789711D8D6115006EFCA9 /* Weather.m */,
+			);
+			name = Entities;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		57A7893F1D8D6072006EFCA9 /* MoscowTemp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 57A789621D8D6072006EFCA9 /* Build configuration list for PBXNativeTarget "MoscowTemp" */;
+			buildPhases = (
+				B3585EDBAD0FE56ECEE17B04 /* [CP] Check Pods Manifest.lock */,
+				57A7893C1D8D6072006EFCA9 /* Sources */,
+				57A7893D1D8D6072006EFCA9 /* Frameworks */,
+				57A7893E1D8D6072006EFCA9 /* Resources */,
+				9074A6F641F4D2DF9A56C2FC /* [CP] Embed Pods Frameworks */,
+				DA3E9C356D3E5C684EC554F4 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MoscowTemp;
+			productName = MoscowTemp;
+			productReference = 57A789401D8D6072006EFCA9 /* MoscowTemp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		57A789581D8D6072006EFCA9 /* MoscowTempTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 57A789651D8D6072006EFCA9 /* Build configuration list for PBXNativeTarget "MoscowTempTests" */;
+			buildPhases = (
+				57A789551D8D6072006EFCA9 /* Sources */,
+				57A789561D8D6072006EFCA9 /* Frameworks */,
+				57A789571D8D6072006EFCA9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				57A7895B1D8D6072006EFCA9 /* PBXTargetDependency */,
+			);
+			name = MoscowTempTests;
+			productName = MoscowTempTests;
+			productReference = 57A789591D8D6072006EFCA9 /* MoscowTempTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		57A789381D8D6072006EFCA9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = "Alyona Belyaeva";
+				TargetAttributes = {
+					57A7893F1D8D6072006EFCA9 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = GT8K5LG9MW;
+						ProvisioningStyle = Automatic;
+					};
+					57A789581D8D6072006EFCA9 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = GT8K5LG9MW;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 57A7893F1D8D6072006EFCA9;
+					};
+				};
+			};
+			buildConfigurationList = 57A7893B1D8D6072006EFCA9 /* Build configuration list for PBXProject "MoscowTemp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 57A789371D8D6072006EFCA9;
+			productRefGroup = 57A789411D8D6072006EFCA9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				57A7893F1D8D6072006EFCA9 /* MoscowTemp */,
+				57A789581D8D6072006EFCA9 /* MoscowTempTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		57A7893E1D8D6072006EFCA9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				57A789531D8D6072006EFCA9 /* LaunchScreen.storyboard in Resources */,
+				57A789501D8D6072006EFCA9 /* Assets.xcassets in Resources */,
+				57A7894E1D8D6072006EFCA9 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		57A789571D8D6072006EFCA9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		9074A6F641F4D2DF9A56C2FC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MoscowTemp/Pods-MoscowTemp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B3585EDBAD0FE56ECEE17B04 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		DA3E9C356D3E5C684EC554F4 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MoscowTemp/Pods-MoscowTemp-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		57A7893C1D8D6072006EFCA9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				57A789731D8D6115006EFCA9 /* Weather.m in Sources */,
+				57A7894B1D8D6072006EFCA9 /* ViewController.m in Sources */,
+				57A789721D8D6115006EFCA9 /* OpenWeather.m in Sources */,
+				57A789481D8D6072006EFCA9 /* AppDelegate.m in Sources */,
+				57A789791D8D611F006EFCA9 /* WeatherGenerator.m in Sources */,
+				57A789451D8D6072006EFCA9 /* main.m in Sources */,
+				57A7896D1D8D610D006EFCA9 /* NSDate+StringAndDate.m in Sources */,
+				57A789781D8D611F006EFCA9 /* MainModel.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		57A789551D8D6072006EFCA9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				57A7895E1D8D6072006EFCA9 /* MoscowTempTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		57A7895B1D8D6072006EFCA9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 57A7893F1D8D6072006EFCA9 /* MoscowTemp */;
+			targetProxy = 57A7895A1D8D6072006EFCA9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		57A7894C1D8D6072006EFCA9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				57A7894D1D8D6072006EFCA9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		57A789511D8D6072006EFCA9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				57A789521D8D6072006EFCA9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		57A789601D8D6072006EFCA9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		57A789611D8D6072006EFCA9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		57A789631D8D6072006EFCA9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 36D10C6B0BC48B419071565E /* Pods-MoscowTemp.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				DEVELOPMENT_TEAM = GT8K5LG9MW;
+				INFOPLIST_FILE = MoscowTemp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.alele.MoscowTemp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		57A789641D8D6072006EFCA9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 770573C18A9C5FB2276449F0 /* Pods-MoscowTemp.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				DEVELOPMENT_TEAM = GT8K5LG9MW;
+				INFOPLIST_FILE = MoscowTemp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.alele.MoscowTemp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		57A789661D8D6072006EFCA9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = GT8K5LG9MW;
+				INFOPLIST_FILE = MoscowTempTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.alele.MoscowTempTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MoscowTemp.app/MoscowTemp";
+			};
+			name = Debug;
+		};
+		57A789671D8D6072006EFCA9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = GT8K5LG9MW;
+				INFOPLIST_FILE = MoscowTempTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.alele.MoscowTempTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MoscowTemp.app/MoscowTemp";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		57A7893B1D8D6072006EFCA9 /* Build configuration list for PBXProject "MoscowTemp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				57A789601D8D6072006EFCA9 /* Debug */,
+				57A789611D8D6072006EFCA9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		57A789621D8D6072006EFCA9 /* Build configuration list for PBXNativeTarget "MoscowTemp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				57A789631D8D6072006EFCA9 /* Debug */,
+				57A789641D8D6072006EFCA9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		57A789651D8D6072006EFCA9 /* Build configuration list for PBXNativeTarget "MoscowTempTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				57A789661D8D6072006EFCA9 /* Debug */,
+				57A789671D8D6072006EFCA9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 57A789381D8D6072006EFCA9 /* Project object */;
+}

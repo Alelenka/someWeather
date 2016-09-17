@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11201" systemVersion="15G1004" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="МОСКВА" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rej-xe-GKF">
+                                <fontDescription key="fontDescription" type="system" pointSize="19"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="сегодня" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0ZZ-jN-wG9">
+                                <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zvN-WW-QYK">
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" hidesWhenStopped="YES" animating="YES" style="gray" translatesAutoresizingMaskIntoConstraints="NO" id="8LP-Qy-pEi"/>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="8LP-Qy-pEi" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="4Pc-za-kGg"/>
+                            <constraint firstItem="0ZZ-jN-wG9" firstAttribute="top" secondItem="rej-xe-GKF" secondAttribute="bottom" constant="8" id="AOZ-FT-9pP"/>
+                            <constraint firstItem="0ZZ-jN-wG9" firstAttribute="centerX" secondItem="rej-xe-GKF" secondAttribute="centerX" id="Gk8-T9-3oT"/>
+                            <constraint firstItem="zvN-WW-QYK" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="aXe-x1-B51"/>
+                            <constraint firstItem="zvN-WW-QYK" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="gtK-Mw-mt2"/>
+                            <constraint firstItem="rej-xe-GKF" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="18" id="meJ-XF-AcH"/>
+                            <constraint firstItem="8LP-Qy-pEi" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="nEn-jG-rKs"/>
+                            <constraint firstItem="rej-xe-GKF" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="wOS-6O-I0r"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="actInd" destination="8LP-Qy-pEi" id="DQx-bn-wTz"/>
+                        <outlet property="dateLabel" destination="0ZZ-jN-wG9" id="6dK-aF-ASN"/>
+                        <outlet property="temperatureLabel" destination="zvN-WW-QYK" id="2g7-AB-oMA"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+    </scenes>
+</document>
